@@ -1,4 +1,4 @@
-## ✦ nichekid.neocities.org
+## ✦ [nichekid.neocities.org](https://nichekid.neocities.org)
 
 My _soon_ to be _live_ [neocities](https://neocities.org) site!
 
