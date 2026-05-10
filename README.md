@@ -6,7 +6,7 @@ My _soon_ to be _live_ [neocities](https://neocities.org) site!
 - HTML & CSS
 - made in VSC & Pheonix Code
 - snippets of code free to use, but do not steal entire pages or site
-- open-source!!
+- technically fully open-source!!
 
 <hr>
 ✦ estimated release: mid 2026
