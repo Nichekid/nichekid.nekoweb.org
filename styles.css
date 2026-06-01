@@ -1,15 +1,19 @@
 /* HEYO!! whatcha doin snooping round here?? no worries, feel free to take inspiration and copy and paste code if you want! just let me know if you make something cool with it! */
 @font-face {
     font-family: NintendoDS;
-    src: url(nintendo-ds.otf);
+    src: url(/font/nintendo-ds/nintendo-ds.otf);
+}
+
+body {
+  background-image: url(backgrounds/bg1.PNG);
+  font-family: NintendoDS;
+  background-attachment: no-scroll;
+  background-color: rgb(12, 19, 51);
+  
 }
 
 /*       index                        */
 
-.indexmain {
-    background-color: rgb(12, 19, 51);
-    font-family: NintendoDS;
-}
 
 /* index | nav */
 
@@ -17,84 +21,99 @@
     display: flex;
     justify-content: center;
     width: auto;
+    
 }
 
 .navcontainer {
     display: flex;
     justify-content: space-between;
     width: 432px;
+    
 }
 
 .navitem {
     color: chartreuse;
+    
+}
+
+.navitem:hover {
+    color: aliceblue;
+    text-shadow: 0 0 9px aliceblue;
+}
+
+.navitem:active {
+    color: #ff00dd;
+    text-shadow: 0 0 9px aliceblue;
 }
 
 /* index | main  */
 
-.indexpgboxescont {
-    display: flex;
-    justify-content: center;
-    width: auto;
-}
-
 .indexpgboxes {
-    display: flex; 
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    margin: auto;
     width: 860px;
     padding: 23px;
-}
-
-/*indexpgbox1 ONE*/
-
-.indexpgbox1 {
-    width: 180px;
-    height: 630px;
-    background-color: rgb(78, 47, 113);
-
-}
-
-/*indexpgbox2 TWO*/
-
-.indexpgbox2 {
-    width: 450px;
-    height: 630px;
-    background-color: rgb(78, 47, 113);
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
+    grid-template-areas:
+        "extrasidebar blogbox miniaboutme"
+        "extrasidebar blogbox miniaboutme" ;
+    grid-template-columns: 170px 490px;
+    gap: 15px;
     
 }
 
-.ibox2item {
-    margin: 20px;
-    background-color: aliceblue;
-    width: 410px;
-    height: 300px;
-    text-align: center;
-    
+.indexpgboxes a {
+    color: chartreuse;
 }
 
-.blogiframe {
-    padding: 10px;
-    text-align: center;
-}
-
-.blogiframe iframe {
-    width: 394px;
-    height: 170px;
-    border-style: hidden;
-}
-
-/*indexpgbox3 THREE*/
-
-.indexpgbox3 {
-    width: 180px;
-    height: 630px;
-    background-color: rgb(78, 47, 113);
-    text-align: center;
+.indexpgboxes a:hover {
     color: aliceblue;
+    text-shadow: 0 0 9px chartreuse;
 }
+
+.indexpgboxes a:active {
+    color: #ff00dd;
+    text-shadow: 0 0 9px aliceblue;
+}
+
+.indexpgboxes hr {
+    color: white;
+}
+
+.indexpgboxes div {
+    background-color: rgba(78, 47, 113, 0.5);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 5px;
+    color: aliceblue;
+    text-align: center;
+    box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.5);
+}
+
+.indexpgboxes h1 {
+    text-shadow: 0 0 1px #faff00, 0 0 5px #ff00dd;
+    
+}
+
+.indexpgboxes h2 { 
+    text-shadow: 0 0 1px #faff00, 0 0 5px #ff00dd;
+}
+
+.indexpgboxes div.extrasidebar {
+    grid-area: extrasidebar;
+}
+
+.indexpgboxes div.blogbox {
+    grid-area: blogbox;
+}
+
+.indexpgboxes div.miniaboutme {
+    grid-area: miniaboutme;
+}
+
+.miniaboutme p {
+    line-height: 14px;
+}
+
 
 /* index | footer */
 
@@ -130,7 +149,7 @@
     
 }
 
-/*mix-blend-mode: multiply;*/
+
 .gallerypg img:hover{
     transform: scale(1.1);
     transition: transform 0.2s ease;
@@ -165,5 +184,12 @@
 
 .galleryallimgs {
     text-align: center;
+}
+
+
+/* Blog */
+
+.blog {
+    color: aliceblue;
 }
 
