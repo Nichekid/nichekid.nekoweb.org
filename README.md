@@ -1,6 +1,6 @@
-## ✦ [nichekid.neocities.org](https://nichekid.neocities.org)
+## ✦ [nichekid.neocities.org](https://nichekid.nekoweb.org)
 
-My _soon_ to be _live_ [neocities](https://neocities.org) site!
+My _soon_ to be _live_ [nekoweb](https://nekoweb.org) site!
 
 
 - HTML & CSS
