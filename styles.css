@@ -6,16 +6,14 @@
 
 body {
   background-image: url(backgrounds/bg1.PNG);
-  font-family: NintendoDS;
+  font-family: NintendoDS, sans-serif;
   background-attachment: no-scroll;
   background-color: rgb(12, 19, 51);
   
 }
 
-/*       index                        */
 
-
-/* index | nav */
+/* nav */
 
 .navcontainermain {
     display: flex;
@@ -46,18 +44,43 @@ body {
     text-shadow: 0 0 9px aliceblue;
 }
 
+
+/*       index                      */
+
+
 /* index | main  */
+
+#statuscafe {
+    padding: .5em;
+    border: none;
+    box-shadow: none;
+}
+#statuscafe-username {
+    margin-bottom: .5em;
+    
+}
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+}
+
+.scrollable {
+    overflow: auto;
+    height: 70px;
+}
 
 .indexpgboxes {
     display: grid;
     margin: auto;
-    width: 860px;
+    width: 90%;
+    max-width: 900px;
+    min-width: 550px;
     padding: 23px;
     grid-template-areas:
-        "extrasidebar blogbox miniaboutme"
-        "extrasidebar blogbox miniaboutme" ;
-    grid-template-columns: 170px 490px;
+        "extrasidebar welcomebox miniaboutme"
+        "extrasidebar bloglist miniaboutme" ;
+    grid-template-columns: 18% 60% 18%;
     gap: 15px;
+    
     
 }
 
@@ -79,32 +102,48 @@ body {
     color: white;
 }
 
+
 .indexpgboxes div {
-    background-color: rgba(78, 47, 113, 0.5);
+    background-color: rgba(12, 2, 24, 0.5);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 5px;
+    border: .5px solid #a7a7c5;
     color: aliceblue;
     text-align: center;
     box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.5);
+    
 }
 
 .indexpgboxes h1 {
     text-shadow: 0 0 1px #faff00, 0 0 5px #ff00dd;
-    
+    margin: 20px;
 }
 
 .indexpgboxes h2 { 
     text-shadow: 0 0 1px #faff00, 0 0 5px #ff00dd;
+    margin: 20px;
 }
 
 .indexpgboxes div.extrasidebar {
     grid-area: extrasidebar;
 }
 
-.indexpgboxes div.blogbox {
-    grid-area: blogbox;
+.indexpgboxes div.welcomebox {
+    grid-area: welcomebox;
+    
 }
+
+.welcomebox p {
+    margin: 25px 26px;
+}
+
+.bloglist iframe {
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
 
 .indexpgboxes div.miniaboutme {
     grid-area: miniaboutme;
@@ -112,6 +151,8 @@ body {
 
 .miniaboutme p {
     line-height: 14px;
+    margin-left: 14px;
+    margin-right: 14px;
 }
 
 
@@ -138,16 +179,14 @@ body {
 /*            Gallery                       */
 
 
-.gallerypg {
-    color: white;
-}
+/* 
 
-.gallerypgmain {
-    background-color: rgb(78, 47, 113);
-    width: 84%;
-    margin: 40px auto;
+.gallerybody {
+    background: url(art/IMG_4729.webp);
+    background-size: 100% 100%;
     
 }
+*/
 
 
 .gallerypg img:hover{
@@ -159,37 +198,71 @@ body {
     mix-blend-mode: multiply;
 }
 
-.gallerygrid {
-    display: grid;
-    grid-gap: 5px;
+
+.gallerypgmain {
+
+    width: 85%;
+    margin: 40px auto;
+    
 }
+
+.gallerypgbox {
+    margin: auto;
+    display: flex;
+    gap: 10px;
+    width: 70%;
+    
+}
+
+
 
 .galleryheader {
+    background-color: rgba(12, 2, 24, 0.5);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 5px;
+    border: .5px solid #a7a7c5;
+    color: aliceblue;
+    text-align: center;
+    box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.5);
     display: flex; 
     flex-direction: column;
-}
-
-.galleryheaderitem1 {
-    margin: auto;
-}
-.galleryheaderitem2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.galleryitem2inside {
-    padding-left: 100px;
+    height: 50%;
+    width: 25%;
+    max-width: 300px;
+    
 }
 
 .galleryallimgs {
+    padding: 10px;
+    background-color: rgba(12, 2, 24, 0.5);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 5px;
+    border: .5px solid #a7a7c5;
+    color: aliceblue;
     text-align: center;
+    box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.5);
+    width: 70%;
+    max-width: 650px;
 }
+
+.gallerygrid {
+    display: flex;
+}
+
 
 
 /* Blog */
 
+div.blog {
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(12, 2, 24, 0.5);
+    padding: 10px;
+}
 .blog {
     color: aliceblue;
+   
 }
 
