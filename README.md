@@ -5,6 +5,7 @@ My _soon_ to be _live_ [nekoweb](https://nekoweb.org) site!
 
 - HTML & CSS
 - made in VSC & Pheonix Code
+- sign my [guestbook!](https://nichekid.atabook.org)
 - snippets of code free to use, but do not steal entire pages or site
 - technically fully open-source!!
 
