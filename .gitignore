@@ -20,6 +20,12 @@ node_modules/
 # ignore jekyll build directory
 /_site
 
+# 11ty
+public/
+
+# unnecessary 11ty bloat
+package-lock.json
+
 # ignore OS generated files
 ehthumbs.db
 Thumbs.db
