@@ -1,0 +1,26 @@
+{
+  "name": "nk-neocities-site",
+  "version": "1.0.0",
+  "description": "My _soon_ to be _live_ [nekoweb](https://nekoweb.org) site!",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve",
+    "build": "npx @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nichekid/nichekid.neocities.org.git"
+  },
+  "keywords": [],
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Nichekid/nichekid.neocities.org/issues"
+  },
+  "homepage": "https://github.com/Nichekid/nichekid.neocities.org#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.6"
+  },
+  "allowScripts": {
+    "fsevents@2.3.3": true
+  }
+}

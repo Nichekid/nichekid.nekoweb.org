@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Blog</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="/css/styles.css" />
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="blog">
+        <header>
+            <nav class="navcontainermain">
+            </nav>
+        </header>
+        <div class="blogdiv, text-stuff" >
+            <h1>BLOG!!!</h1>
+            <p>These are all of my amazing blog posts, enjoy!</p>
+            <img width="20%" src="/images/cool-graphics/splatoon/signage/S3_Sticker_FRGL-X2_sticker.png">
+            <ul>
+             {% for post in collections.blog | reverse %}
+             <li>
+              <a class="navitem" target="_blank" href="{{ post.url }}">{{ post.data.title }}</a>
+             </li>
+             {% endfor %}
+                </ul>
+
+                
+
+        </div>
+    </body>
+</html>
