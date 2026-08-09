@@ -5,7 +5,7 @@ Sign my [guestbook!](https://nichekid.atabook.org)
 
 - a simple static site inspired by geocities websites!
 - made in VSC & Pheonix Code
-- powered by 11ty!
+- powered by [11ty!](https://www.11ty.dev)
 - snippets of code free to use, but do not steal entire pages or site
 - technically fully open-source!!
 
