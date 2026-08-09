@@ -7,7 +7,7 @@ Sign my [guestbook!](https://nichekid.atabook.org)
 - made in VSC & Pheonix Code
 - powered by [11ty!](https://www.11ty.dev)
 - snippets of code free to use, but do not steal entire pages or site
-- technically fully open-source!!
+- technically open-source!!
 
 <hr>
 ✦ estimated release: mid 2026
