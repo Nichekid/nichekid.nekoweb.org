@@ -12,6 +12,10 @@ body {
   
 }
 
+* {
+cursor: url('https://cdn.cursors-4u.net/previews/green-sony-psp-2bd7b36d-32.webp') 32 32, auto !important;
+}
+
 
 /* nav */
 
@@ -29,6 +33,8 @@ body {
     
 }
 
+
+
 .navitem {
     color: chartreuse;
     
@@ -43,7 +49,6 @@ body {
     color: #ff00dd;
     text-shadow: 0 0 9px aliceblue;
 }
-
 
 /*       index                      */
 
@@ -201,25 +206,20 @@ body {
 }
 
 
-/* index | footer */
+/* footer */
 
 .footer {
     color: aliceblue;
     text-align: center;
 }
 
+.footer img{
+    min-width: 100px;
+}
+
 .footer span {
     font-size: small
 }
-
-/*          not_found                  */
-
-.not-found {
-    background-color: rgb(34, 42, 82);
-    font-family: NintendoDS;
-    color: aliceblue;
-}
-
 
 /*            Gallery                       */
 
@@ -323,9 +323,92 @@ div.blog {
 .text-stuff h1 {
     text-shadow: 0 0 1px #faff00, 0 0 8px #ff00dd;
     margin: 20px;
+    font-size: 2rem;
 }
 
 .text-stuff h2 { 
     text-shadow: 0 0 1px #faff00, 0 0 5px #ff00dd;
     margin: 20px;
+    font-size: 1.6rem;
+}
+
+.text-stuff h3 {
+    font-size: 1.4rem;
+}
+
+/* reusable. mainly for resources and blog! */
+
+.maincontainer {
+    width: 85%;
+    margin: 40px auto;
+
+}
+
+.maincontentboxes {
+    margin: auto;
+    gap: 10px;
+    width: 70%;
+    max-width: 900px;
+    min-width: 550px;
+}
+
+.maincontainbox {
+    background-color: rgba(12, 2, 24, 0.5);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 5px;
+    border: .5px solid #a7a7c5;
+    color: aliceblue;
+    text-align: center;
+    box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.5);
+}
+
+.maincontainbox ul {
+    font-size: 1.1rem;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+.maincontainbox li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.maincontentboxes p {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.linkitem a {
+    color: chartreuse;
+    font-size: 1.2rem;
+}
+/*
+.linkitem:hover a {
+    color: aliceblue;
+    text-shadow: 0 0 9px aliceblue;
+}
+*/
+a.linkitem:active {
+    color: #ff00dd;
+    text-shadow: 0 0 9px aliceblue;
+}
+
+.lists-style {
+        font-size: 1.1rem;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.blog-text p {
+    font-size: 1.3rem;
+}
+
+.blog-list-text {
+    font-size: 1.4rem;
+}
+
+
+.hover-img img:hover{
+    transform: scale(1.1);
+    transition: transform 0.2s ease;
 }

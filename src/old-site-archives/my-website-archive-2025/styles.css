@@ -1,0 +1,253 @@
+/*.title {
+    color: green;
+    text-align: center;
+    background-color: black
+    
+}*/
+
+/* resoucre/guides for hacking consoles, learning html, free opensource programs, art tutorials and more. */
+
+/*Main*/
+
+
+
+:root {
+    --body-bg-image: url('/backgrounds/background.gif')
+}
+
+body {
+  background-image: var(--body-bg-image);
+}
+
+marquee{
+    color: aliceblue;
+}
+
+.blinksize {
+    width: 104px;
+}
+
+.mainpagelinks p{
+    display: inline-block;
+    text-align: center;
+}
+
+.mainpagelinks {
+  width: 67%;
+  height: 10%;
+  background-color: #1e1d1f;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 32px;
+  padding-left: 32px;
+  border-style: groove;
+  /*max-width: 501px;*/
+}
+
+/* [MAIN] boxes for index */
+
+.mainbx {
+    width: max-content;
+}
+
+.mainbx1 {
+  width: 67%;
+  background-color: #1e1d1f;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 25px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+  max-width: 218px;
+    position: static;
+    float: right;
+  box-shadow: 8px 8px 
+}
+
+/* margin right was 238 left was auto */
+
+.mainbx2 {
+  width: 67%;
+  background-color: #1e1d1f;
+  margin-left: 250px;
+  margin-right: 20px;
+  margin-top: 25px;
+  padding-top: 25px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  position: static;
+  float: left;
+  max-width: 613px;
+  box-shadow: 8px 8px ;
+}
+
+.mainbx3 {
+    max-width: 230px;
+    margin-top: 672px;
+    margin-bottom: 37px;
+    margin-left: -306px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    position: static;
+    float: right;
+    background-color: #1e1d1f;
+}
+
+.mainbx1 h1 {
+    color: #20bc20;
+    margin: 0px;
+  }
+
+.main i {
+    color: #dbeadb
+}
+
+p {
+    color: #dbeadb;    
+}
+
+.starthang {
+    color: #776dea;
+}
+
+h2 {
+    color: white;
+}
+
+
+
+/* about me*/
+
+.aboutmebx1 {
+  width: 67%;
+  background-color: #1e1d1f;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  padding-top: 25px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 25px;
+  max-width: 613px;
+  box-shadow: 8px 8px;
+  
+}
+
+.aboutmebx1 p {
+
+    margin: auto;
+
+    text-align: center;
+}
+
+.aboutmebx1 img {
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+.aboutmebx1 h1 {
+    color: #20bc20;
+}
+
+/* footer */
+
+footer {
+    position: static;
+    margin-top: 59%;
+    padding-top: 10%;
+    padding-bottom: 1%;
+    text-align: center;
+    color: #dbeadb;
+    font-size: small;
+}
+
+/* not found */
+
+.nfbox {
+    background-color: #1e1d1f; 
+    width: 67%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    padding: 25px;
+}
+
+.nfbox h1 {
+    color: #20bc20;
+}
+
+.tiny {
+    font-size: x-small;
+}
+
+
+
+/* landing */
+
+.landingpg {
+    padding-top: 200px;
+ 
+    margin: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.landingcontent img {
+    width: 462px;
+}
+
+.landingcontent  {
+    float: left;
+}
+.landingpg p {
+    text-align: center;
+    margin: auto;
+}
+
+.landingblink {
+
+    margin: auto;
+    mix-blend-mode: luminosity;
+}
+
+
+/* test 
+.fixboxbig {
+  top: 20px;              
+  width: 260px;            
+  height: 180px;          
+  padding: 12px;
+  background: #b4acc7;
+  position: fixed;
+}
+
+
+.fixed-box {
+  position: fixed;
+  top: 20px;              
+  width: 260px;           
+  height: 180px;          
+  padding: 12px;
+  background: #b4acc7;
+  border: 2px solid #ccc;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+  box-sizing: border-box;
+  z-index: 1000;
+  overflow: auto;         
+}
+
+.fixed-box.left {
+  left: 500px;            
+}
+
+.fixed-box.right {
+  right: 300px;           
+  
+}
+*/

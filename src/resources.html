@@ -2,16 +2,21 @@
 layout: base.njk
 title: Resources!
 ---
-<div class="text-stuff">
+<div class="text-stuff maincontainer">
+    <div class="maincontentboxes">
+    <div class="maincontainbox">
         <h1>Resources!!!</h1>
-            <p>resources for a bunch of stuff, most i have used my swlf!</p>
-            <img width="15%" src="/images/cool-graphics/splatoon/Graffiti/S3_Sticker_SG-MASQ_graffiti.png">
+            <p>A relatively extesive list of many links and guide for all sorts of things! More links will be added over time. Many resources are things I've personally use and recommend, but are also recommended by their respective communities.</p>
+            <img width="15%" src="/images/Comunication.gif">
+            
             
             <ul>
              {% for post in collections.resources | reverse %}
              <li>
-              <a class="navitem" target="_blank" href="{{ post.url }}">{{ post.data.title }}</a>
+              <a class="navitem" href="{{ post.url }}">{{ post.data.title }}</a>
              </li>
              {% endfor %}
                 </ul>
+                </div>
+            </div>
             </div>

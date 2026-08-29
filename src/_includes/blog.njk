@@ -2,4 +2,16 @@
 layout: base.njk
 ---
 
-<article class="text-stuff">{{ content | safe }}</article>
+
+<article>
+    <div class="text-stuff maincontainer">
+        <div class="maincontentboxes">
+            <div class="maincontainbox blog-text">
+                <br>
+                <a class="text-stuff navitem" href="/index/">Go back</a>
+                <h1>{{ title }}</h1>
+                 {{ content | safe }}
+            </div>
+        </div>
+    </div>
+</article>

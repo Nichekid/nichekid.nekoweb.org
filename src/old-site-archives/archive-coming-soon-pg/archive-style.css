@@ -1,0 +1,38 @@
+
+body {
+  background-color: black;
+  color: white;
+  font-family: Verdana;
+}
+
+h1, h2 {
+  color: #03FF07;
+}
+
+h3 {
+  color: #FF03B3;
+}
+
+footer {
+  text-align: center;
+}
+
+/**/
+
+
+a:active {
+  color: white;
+}
+
+a:hover {
+  color: white
+}
+
+a:visited {
+  color: blue;
+}
+
+a {
+  text-decoration: underline;
+
+}
