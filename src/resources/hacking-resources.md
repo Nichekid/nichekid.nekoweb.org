@@ -303,15 +303,15 @@ CFW Rockbox for iPods!
 
 ### DSi (JP region)
 
-<a href="/images/console-img/jDSI-open.webp" target="_blank">
-<img  src="/images/console-img/jDSI-open.webp" width="40%" alt="nintendo clamshell video game console DSi in lime green and a chao sticker, opened against black background with black and white 2 theme"></a>
+<a href="/images/console-img/jDSi-open.webp" target="_blank">
+<img  src="/images/console-img/jDSi-open.webp" width="40%" alt="nintendo clamshell video game console DSi in lime green and a chao sticker, opened against black background with black and white 2 theme"></a>
 <a href="/images/console-img/jDSI-closed.webp" target="_blank">
 <img  src="/images/console-img/jDSI-closed.webp" width="40%" alt="nintendo clamshell video game console DSi in lime green closed with graphic sticker that looks like a blakc and white fire streak (made by me!)"></a>
 
 ### DSi (USA region)
 
 <a href="/images/console-img/aDSi.webp" target="_blank">
-<img  src="/images/console-img/aDSI.webp" width="40%" alt="nintendo clamshell video game console DSi in black, opened against black background with black and white 2 theme"></a>
+<img  src="/images/console-img/aDSi.webp" width="40%" alt="nintendo clamshell video game console DSi in black, opened against black background with black and white 2 theme"></a>
 
 ### 2DS (original) (USA REGION)
 

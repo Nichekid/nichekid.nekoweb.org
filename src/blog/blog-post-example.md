@@ -56,7 +56,7 @@ Whatever those opinions may be though, at least we can always start with ourselv
 <br>
 <br>
 
-<img src="/images/IMG_1077.gif" alt="computer border decorative" width="50%">
+<img src="/images/IMG_1077.GIF" alt="computer border decorative" width="50%">
 
 <br>
 

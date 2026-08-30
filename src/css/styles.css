@@ -460,6 +460,7 @@ a.linkitem:active {
 
 
 /* newsandupdates attchaed to status graffiti img VVVV */
+/* HIDDEN  */
 .bottomleftimg3 {
     position: absolute;
     top: -160px;
@@ -468,6 +469,7 @@ a.linkitem:active {
     mix-blend-mode: multiply;
     opacity: 0.5;
     rotate: -5deg;
+    visibility: hidden;
 }
 /* end  */
 
