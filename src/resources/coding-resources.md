@@ -282,6 +282,6 @@ Add a widget to your site a connected to LastFM to tell people what your current
 
 <br>
 
-[<oliverembed>](https://oliverspace.neocities.org/olivembed)
+[oliverembed](https://oliverspace.neocities.org/olivembed)
 
 Customize the way your site embed looks like when you send links of it!
