@@ -467,7 +467,7 @@ a.linkitem:active {
     left: 1px;
     rotate: 20deg;
     mix-blend-mode: multiply;
-    opacity: 0.5;
+    opacity: 0;
     rotate: -5deg;
     visibility: hidden;
 }

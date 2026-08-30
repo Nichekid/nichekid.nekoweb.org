@@ -305,8 +305,8 @@ CFW Rockbox for iPods!
 
 <a href="/images/console-img/jDSi-open.webp" target="_blank">
 <img  src="/images/console-img/jDSi-open.webp" width="40%" alt="nintendo clamshell video game console DSi in lime green and a chao sticker, opened against black background with black and white 2 theme"></a>
-<a href="/images/console-img/jDSI-closed.webp" target="_blank">
-<img  src="/images/console-img/jDSI-closed.webp" width="40%" alt="nintendo clamshell video game console DSi in lime green closed with graphic sticker that looks like a blakc and white fire streak (made by me!)"></a>
+<a href="/images/console-img/jDSi-closed.webp" target="_blank">
+<img  src="/images/console-img/jDSi-closed.webp" width="40%" alt="nintendo clamshell video game console DSi in lime green closed with graphic sticker that looks like a blakc and white fire streak (made by me!)"></a>
 
 ### DSi (USA region)
 
