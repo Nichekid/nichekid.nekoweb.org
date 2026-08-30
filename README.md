@@ -1,6 +1,6 @@
 ## ✦ [nichekid.nekoweb.org](https://nichekid.nekoweb.org)
 
-### My _soon_ to be _live_ [nekoweb](https://nekoweb.org) site! 
+### My _live_ [nekoweb](https://nekoweb.org) site! 
 Sign my [guestbook!](https://nichekid.atabook.org)
 
 - a simple static site inspired by geocities websites!
@@ -8,12 +8,6 @@ Sign my [guestbook!](https://nichekid.atabook.org)
 - powered by [11ty!](https://www.11ty.dev)
 - snippets of code free to use, but do not steal entire pages or site
 - technically open-source!!
-
-<hr>
-✦ estimated release: mid 2026
-<br>
-✦ deadline: late 2026 - early 2027
-<hr>
 
 ### How to Run a Local Copy:
 
