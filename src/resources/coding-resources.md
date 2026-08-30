@@ -280,3 +280,8 @@ Adopt a censorship panda for your site and let people know if your site is rated
 
 Add a widget to your site a connected to LastFM to tell people what your currently listening to!
 
+<br>
+
+[<oliverembed>](https://oliverspace.neocities.org/olivembed)
+
+Customize the way your site embed looks like when you send links of it!
