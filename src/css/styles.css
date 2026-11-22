@@ -78,6 +78,12 @@ cursor: url('https://cdn.cursors-4u.net/previews/green-sony-psp-2bd7b36d-32.webp
 
 /* index | main  */
 
+.welcomeh1 {
+    font-size: 4rem;
+}
+
+
+
 #statuscafe {
     padding: .5em;
     border: none;
@@ -103,6 +109,7 @@ cursor: url('https://cdn.cursors-4u.net/previews/green-sony-psp-2bd7b36d-32.webp
 .indexpgboxes {
     display: grid;
     margin: auto;
+    
     width: 90%;
     max-width: 900px;
     min-width: 550px;
@@ -145,6 +152,7 @@ cursor: url('https://cdn.cursors-4u.net/previews/green-sony-psp-2bd7b36d-32.webp
     color: aliceblue;
     text-align: center;
     box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.5);
+    
     
 }
 
@@ -216,6 +224,21 @@ cursor: url('https://cdn.cursors-4u.net/previews/green-sony-psp-2bd7b36d-32.webp
     margin-right: 14px;
 }
 
+/* graffiti text */
+.indexgraffiti {
+    position: relative;
+}
+
+.tiny {
+    font-size: 0.8rem;
+    text-align: left;
+    left: 30px;
+    bottom: 1px;
+    position: absolute;
+    color: rgb(183, 183, 183);
+}
+
+/**/
 
 /* footer */
 
@@ -420,6 +443,10 @@ a.linkitem:active {
 
 .blog-list-text {
     font-size: 1.4rem;
+}
+
+.readable {
+    font-size: 1.2rem;
 }
 
 
